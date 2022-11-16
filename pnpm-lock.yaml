@@ -1,0 +1,40 @@
+lockfileVersion: 5.4
+
+specifiers:
+  typescript: ^4.9.3
+  typescript-json-serializer: ^5.1.0
+
+dependencies:
+  typescript: registry.npmmirror.com/typescript/4.9.3
+  typescript-json-serializer: registry.npmmirror.com/typescript-json-serializer/5.1.0
+
+packages:
+
+  registry.npmmirror.com/reflect-metadata/0.1.13:
+    resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz}
+    name: reflect-metadata
+    version: 0.1.13
+    dev: false
+
+  registry.npmmirror.com/tslib/2.4.1:
+    resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tslib/-/tslib-2.4.1.tgz}
+    name: tslib
+    version: 2.4.1
+    dev: false
+
+  registry.npmmirror.com/typescript-json-serializer/5.1.0:
+    resolution: {integrity: sha512-0q50ZQV5G+yKNJSZLRwTMAXXS8nx4LvDaNGp82FmLE3lXTKRcSaU+0+A8Ic0lKkqKLhj08OYwBGG6pVuCJImUw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript-json-serializer/-/typescript-json-serializer-5.1.0.tgz}
+    name: typescript-json-serializer
+    version: 5.1.0
+    dependencies:
+      reflect-metadata: registry.npmmirror.com/reflect-metadata/0.1.13
+      tslib: registry.npmmirror.com/tslib/2.4.1
+    dev: false
+
+  registry.npmmirror.com/typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/typescript/-/typescript-4.9.3.tgz}
+    name: typescript
+    version: 4.9.3
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
